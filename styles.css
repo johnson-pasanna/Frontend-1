@@ -191,6 +191,21 @@
   .image-description {
     margin: 0 auto;
   }
+
+  .container-fluid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin: 0 auto;
+    height: 50%;
+    width: 90%;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 10px;
+  }
+
   /* .container .image-grid{
       margin-left: 20%;
   } */
