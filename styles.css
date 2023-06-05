@@ -77,7 +77,7 @@
   grid-row: 3/5;
 }
 .card {
-  box-shadow: 10px 10px 30px grey;
+  box-shadow: 10px 10px 30px rgb(245, 130, 130);
 }
 
 @media screen and (min-width: 501px) and (max-width: 1000px) {
